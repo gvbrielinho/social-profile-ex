@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Perfil</h1>
+    </header>
+    <section>
+        <h2 style="display: flex; justify-content: center;">Foto de Perfil</h2>
+        <img src="./assets/image4.jpg" alt="Foto de perfil">
+    </section>
+    <section>
+        <h2 style="display: flex; justify-content: center;">Datos Personales</h2>
+        <ul style="text-align: center;">
+            <li><strong>Nombre:</strong> Juan Pérez</li>
+            <li><strong>Fecha de Nacimiento:</strong> 4 de Marzo de 1989</li>
+            <li><strong>Lugar de Nacimiento:</strong> Vicente López</li>
+            <li><strong>Dirección:</strong> Calle Principal, 123</li>
+            <li><strong>Teléfono:</strong> 555-123-456</li>
+            <li><strong>Correo Electrónico:</strong> ejemplo@example.com</li>
+        </ul>
+    </section>
+    <section>
+        <h2 style="display: flex; justify-content: center;">Formación Académica</h2>
+        <table>
+            <tr>
+                <th>Titulación</th>
+                <th>Años de Inicio y Finalización</th>
+                <th>Centro de Estudios</th>
+            </tr>
+            <tr>
+                <td>Ingeniería Informática</td>
+                <td>2017 - 2030</td>
+                <td>Universidad Abierta Interamericana</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Mi Perfil</p>
+    </footer>
+</body>
+
+</html>
